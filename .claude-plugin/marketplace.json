@@ -1,0 +1,22 @@
+{
+  "name": "davekiss",
+  "owner": { "name": "Dave Kiss", "url": "https://github.com/davekiss" },
+  "metadata": { "description": "Claude Code plugins by Dave Kiss" },
+  "plugins": [
+    {
+      "name": "md",
+      "source": { "source": "github", "repo": "davekiss/md" },
+      "description": "Read, write and review markdown with Claude in a pane inside Claude Code."
+    },
+    {
+      "name": "env",
+      "source": { "source": "github", "repo": "davekiss/env" },
+      "description": "Edit .env files in a pane inside Claude Code. Claude manages keys and asks you for values without ever seeing them."
+    },
+    {
+      "name": "shot",
+      "source": { "source": "git-subdir", "url": "https://github.com/davekiss/shot.git", "path": "claude-mod" },
+      "description": "Headless macOS screenshots for agents: capture, mark up, redact, record and find screenshots without taking focus. Bundles the shot MCP server, a skill, /shot and a history pane."
+    }
+  ]
+}
